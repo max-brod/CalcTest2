@@ -127,9 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="declare.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="userAddition.cpp" />
     <ClCompile Include="userDivision.cpp" />
@@ -139,6 +136,9 @@
     <ClCompile Include="userIf.cpp" />
     <ClCompile Include="userMultiplication.cpp" />
     <ClCompile Include="userSubtraction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="declare.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,12 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="declare.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="userAddition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="userDivision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="userExitMsg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="userFirstOpen.cpp">
@@ -29,23 +33,19 @@
     <ClCompile Include="userGetInput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="userAddition.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="userSubtraction.cpp">
+    <ClCompile Include="userIf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="userMultiplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="userDivision.cpp">
+    <ClCompile Include="userSubtraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="userIf.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="userExitMsg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="declare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
