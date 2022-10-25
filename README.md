@@ -1,8 +1,6 @@
 # CalcTest2
 
-### This console-only application contains basic arithmetic functions as a proof-of-learning milestone for mysel and is not intended for production. Release included for testing.
-
----
+### This console-only application contains basic arithmetic functions as a proof-of-learning milestone for myself and is not intended for production. Release included for testing.
 
 # Version 1.0 - Initial release
 
