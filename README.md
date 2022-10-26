@@ -6,7 +6,7 @@
 # Version 1.1 - Application improvements
 
 Changelog:
-- Function refractor to allow improvements
+- Function refactor to allow improvements
 - Implemented loop to "menu" (aka userInputControl) through function calls depending on the integer passed
 - On subsequent returns to menu, do not show userFirstOpen message
 - Exit message should now only display when entering "5" in menu to exit the program
