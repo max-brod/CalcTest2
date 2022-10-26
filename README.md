@@ -3,9 +3,26 @@
 ### This console-only application contains basic arithmetic functions as a proof-of-learning milestone for myself and is not intended for production. Release included for testing.
 [Click here to check out my old CalcTest1 application (which is no longer maintained).](https://github.com/von-de/CalcTest1)
 
+# Version 1.2 - Fixes & UX/UI improvements
+
+Changelog:
+- Overhauled the systems functions use to call each other
+- One function no logner depends on another call to return to caller
+- Function userInputControl is now split into userInputOverview and userInput to allow for more design freedom
+- Function userInputOverview now returns to void
+- Added additional batch arguments to start of main (echo off, console title, console color)
+- Adjustment to calculation UI, result screen now makes clear that the result does not get saved
+- Typing in an invalid value into userInput now causes an error to be displayed above userInputOverview without confirmation prompt
+
+#### Desired changes: 
+- Display an error instead of "1" if calculation results in a non-int
+- Prevent issues caused by the divisor "0" (dividing through zero)
+
+<sub>Date of finish: 26.10.2022, 14:41 CEST</sub>
+
 ## Version 1.1.1 - Hotfix
 
-Changelog
+Changelog:
 - Functions userInputControl, userIf and userTextGen now return 0 to caller in all if-statements and at the end of execution, instead of calling another function and returning by calling the caller function. This temporary fix prevents potential errors or faults if the program returns to the caller in an unexpected way.
 - In a future update, a better solution will be integrated.
 
