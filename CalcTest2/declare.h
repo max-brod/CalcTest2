@@ -1,8 +1,9 @@
 #ifndef HEAD_QUASI_VALIDATION
 #endif HEAD_QUASI_VALIDATION
 
+int userTextGen(int x);
 void userFirstOpen();
-int userGetInput();
+int userInputControl();
 int userIf(int x);
 void userAddition();
 void userSubtraction();
