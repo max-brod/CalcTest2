@@ -1,6 +1,7 @@
 # CalcTest2
 
 ### This console-only application contains basic arithmetic functions as a proof-of-learning milestone for myself and is not intended for production. Release included for testing.
+[Click here to check out my old CalcTest1 application (which is no longer maintained).](https://github.com/von-de/CalcTest1)
 
 # Version 1.1 - Application improvements
 
