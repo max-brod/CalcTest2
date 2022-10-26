@@ -130,12 +130,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="userAddition.cpp" />
     <ClCompile Include="userDivision.cpp" />
-    <ClCompile Include="userExitMsg.cpp" />
-    <ClCompile Include="userFirstOpen.cpp" />
-    <ClCompile Include="userGetInput.cpp" />
-    <ClCompile Include="userIf.cpp" />
+    <ClCompile Include="userInputControl.cpp" />
     <ClCompile Include="userMultiplication.cpp" />
     <ClCompile Include="userSubtraction.cpp" />
+    <ClCompile Include="userTextGen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="declare.h" />

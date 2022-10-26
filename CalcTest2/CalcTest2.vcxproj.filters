@@ -24,22 +24,16 @@
     <ClCompile Include="userDivision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="userExitMsg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="userFirstOpen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="userGetInput.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="userIf.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="userMultiplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="userSubtraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="userInputControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="userTextGen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
