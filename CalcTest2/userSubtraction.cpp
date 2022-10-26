@@ -24,12 +24,12 @@ void userSubtraction()
 		>> subtrahend
 		;
 	std::cout
-		<< "\n\n"
+		<< "\n"
 		<< "The calculated difference between these two integers is equal to "
 		<< minuend - subtrahend
 		<< "."
-		<< "\n"
-		<< "Press any button to continue."
+		<< "\n\n\n\n\n"
+		<< "Press any button to return. Your results will not be saved."
 		;
 	std::system("pause >NUL")
 		;

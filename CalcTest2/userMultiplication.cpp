@@ -24,12 +24,12 @@ void userMultiplication()
 		>> secondFactor
 		;
 	std::cout
-		<< "\n\n"
+		<< "\n"
 		<< "The calculated product of these two integers is equal to "
 		<< firstFactor * secondFactor
 		<< "."
-		<< "\n"
-		<< "Press any button to continue."
+		<< "\n\n\n\n\n"
+		<< "Press any button to return. Your results will not be saved."
 		;
 	std::system("pause >NUL")
 		;
