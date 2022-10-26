@@ -2,6 +2,23 @@
 
 ### This console-only application contains basic arithmetic functions as a proof-of-learning milestone for myself and is not intended for production. Release included for testing.
 
+# Version 2.0 - Application improvements
+
+Changelog:
+- Function refractor to allow improvements
+- Implemented loop to "menu" (aka userInputControl) through function calls depending on the integer passed
+- On subsequent returns to menu, do not show userFirstOpen message
+- Exit message should now only display when entering "5" in menu to exit the program
+- Changes to header file to reflect changes
+- README now uses hyphens instead of asterisks for lists
+- README and future release tags now use subscript for dates instead of regular text (retroactively applied on README)
+- Updated bad descriptions in Version 1.0 release notes
+
+#### Desired changes: 
+- Switch to C++ solution for pause and clear (currently uses batch arguments passed to console)
+
+<sub>Date of finish: 26.10.2022, 09:37 CEST</sub>
+
 # Version 1.0 - Initial release
 
 Features:
@@ -24,6 +41,6 @@ Features:
 * Basic multiplication (first and second factor)
 * Basic division (dividend and divisor)
 (To be improved: Invalid entries return prematurely to main and subsequently cause a program exit)
-* Currently uses system calls to pause and clear
+* Currently uses batch arguments passed to console
 
-Date of finish: 25.10.2022, 23:51 CEST
+<sub>Date of finish: 25.10.2022, 23:51 CEST</sub>
