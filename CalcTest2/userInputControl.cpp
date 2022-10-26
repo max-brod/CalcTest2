@@ -3,7 +3,7 @@
 
 // #define FEATURE_UNFINISHED
 
-int userInputControl()
+void userInputOverview()
 {
 	std::cout
 		<< "Please enter number [1,2,3,4] to perform a calculation."
@@ -26,12 +26,15 @@ int userInputControl()
 		<< "\n\n"
 		<< ">>  "
 		;
+}
+
+int userInput()
+{
 	int input{ };
 	std::cin
 		>> input
 		;
-	userIf(input);
-	return 0;
+	return input;
 }
 
 int userIf(int x)
@@ -75,5 +78,16 @@ int userIf(int x)
 		return 0;
 	}
 #endif FEATURE_UNFINISHED
+	else
+	{
+		std::system("cls");
+			std::cout
+			<< "This is not an allowed value. Please enter an allowed integer value."
+			<< "\n\n"
+			;
+		userInputOverview();
+		userInput();
+		return 0;
+	}
 	return 0;
 }

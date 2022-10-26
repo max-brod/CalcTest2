@@ -41,21 +41,24 @@ void userExitMsg()
 
 int userTextGen(int x)
 {
+	int ifquery{};
 	if (x == 1)
 	{
-		userFirstOpen();
-		userInputControl();
+		userInputOverview();
+		int ifquery{ userInput() };
+		userIf(ifquery);
 		return 0;
 	}
 	else if (x == 2)
 	{
 		std::system("cls");
-		userInputControl();
+		userInputOverview();
+		int ifquery{ userInput() };
+		userIf(ifquery);
 		return 0;
-	}
+	}	
 	else if (x == 3)
 	{
-		userExitMsg();
 		return 0;
 	}
 	return 0;

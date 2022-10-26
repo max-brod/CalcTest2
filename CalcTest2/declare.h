@@ -3,7 +3,8 @@
 
 int userTextGen(int x);
 void userFirstOpen();
-int userInputControl();
+void userInputOverview();
+int userInput();
 int userIf(int x);
 void userAddition();
 void userSubtraction();
