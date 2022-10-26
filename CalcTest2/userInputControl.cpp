@@ -42,31 +42,37 @@ int userIf(int x)
 	{
 		userAddition();
 		userTextGen(loop);
+		return 0;
 	}
 	else if (x == 2)
 	{
 		userSubtraction();
 		userTextGen(loop);
+		return 0;
 	}
 	else if (x == 3)
 	{
 		userMultiplication();
 		userTextGen(loop);
+		return 0;
 	}
 	else if (x == 4)
 	{
 		userDivision();
 		userTextGen(loop);
+		return 0;
 	}
 	else if (x == 5)
 	{
 		userTextGen(exit);
+		return 0;
 	}
 #ifdef FEATURE_UNFINISHED
 	else if (x == R)
 	{
 		userReadme();
 		userTextGen(loop);
+		return 0;
 	}
 #endif FEATURE_UNFINISHED
 	return 0;

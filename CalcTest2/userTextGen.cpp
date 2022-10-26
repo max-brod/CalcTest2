@@ -45,15 +45,18 @@ int userTextGen(int x)
 	{
 		userFirstOpen();
 		userInputControl();
+		return 0;
 	}
 	else if (x == 2)
 	{
 		std::system("cls");
 		userInputControl();
+		return 0;
 	}
 	else if (x == 3)
 	{
 		userExitMsg();
 		return 0;
 	}
+	return 0;
 }
