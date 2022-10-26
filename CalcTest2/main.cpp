@@ -3,13 +3,8 @@
 
 int main()
 {
-	userFirstOpen();
-
-	int input{ userGetInput() };
-
-	userIf(input);
-
-	userExitMsg();
-
+	std::system("title CalcTest2 v1.1");
+	int f {1};
+	userTextGen(f);
 	return 0;
 }
