@@ -2,7 +2,7 @@
 
 ### This console-only application contains basic arithmetic functions as a proof-of-learning milestone for myself and is not intended for production. Release included for testing.
 
-# Version 2.0 - Application improvements
+# Version 1.1 - Application improvements
 
 Changelog:
 - Function refractor to allow improvements
@@ -10,6 +10,7 @@ Changelog:
 - On subsequent returns to menu, do not show userFirstOpen message
 - Exit message should now only display when entering "5" in menu to exit the program
 - Changes to header file to reflect changes
+- Added and commented out preprocessor directive as a reminder to include README in the future
 - README now uses hyphens instead of asterisks for lists
 - README and future release tags now use subscript for dates instead of regular text (retroactively applied on README)
 - Updated bad descriptions in Version 1.0 release notes
