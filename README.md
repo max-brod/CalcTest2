@@ -1,4 +1,15 @@
-# CalcTest2
+Note: This repository is now set to "read-only" and development of the application is halted.
+"CalcTest1" was a very simple console-based application written in C++. Its purpose was for me to attempt to apply some of what I was learning from the page [LearnCpp](https://www.learncpp.com/) in the form of a simple calculator.
+This application has served its intended purpose and is no longer under development.
+
+If you want to use this application and/or its code yourself: I have now attached the UNLICENSE "licensse" to this repository, subsequently releasing it to the public domain (as-is).
+
+Date: July 16th, 2023
+
+<details>
+  <summary>CalcTest2: Application README</summary>
+ 
+  # CalcTest2
 
 ### This console-only application contains basic arithmetic functions as a proof-of-learning milestone for myself and is not intended for production. Release included for testing.
 [Click here to check out my old CalcTest1 application (which is no longer maintained).](https://github.com/von-de/CalcTest1)
@@ -71,3 +82,4 @@ Features:
 * Currently uses batch arguments passed to console
 
 <sub>Date of finish: 25.10.2022, 23:51 CEST</sub>
+</details>
